@@ -1,0 +1,7 @@
+keycode 133 = Mode_switch
+keycode  47 = semicolon colon ccaron Ccaron
+keycode  48 = apostrophe quotedbl cacute Cacute
+keycode  51 = backslash bar zcaron Zcaron
+keycode  34 = bracketleft braceleft scaron Scaron
+keycode  35 = bracketright braceright dstroke Dstroke
+

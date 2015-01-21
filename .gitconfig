@@ -1,0 +1,11 @@
+[user]
+	name = Jan Snajder
+	email = jan.snajder@fer.hr
+[core]
+	editor = vim
+[merge]
+	tool = vimdiff
+[alias]
+	co = checkout
+	ci = commit
+	st = status

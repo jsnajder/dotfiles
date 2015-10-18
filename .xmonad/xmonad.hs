@@ -55,7 +55,7 @@ startup :: X ()
 startup = do
   spawnOn "9:mail" "thunderbird"
   spawnOn "8:web" "firefox"
---  spawnOn "9:zim" "Zim"
+  spawnOn "7:zim" "zim"
 
 myManageHook = composeAll
    [ className =? "firefox" --> doShift "8:web"

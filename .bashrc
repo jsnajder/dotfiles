@@ -116,3 +116,6 @@ fi
 export GIT_SSL_NO_VERIFY=true
 
 export PATH=~/.cabal/bin:$PATH
+
+alias tunnel-nict="ssh -i .ssh/id_rsa -L 10024:172.22.1.21:22 -L 10025:172.22.1.22:22 snajder@202.180.37.130"
+

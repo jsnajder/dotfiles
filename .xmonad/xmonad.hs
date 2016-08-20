@@ -55,10 +55,11 @@ startup :: X ()
 startup = do
   spawnOn "9:mail" "thunderbird"
   spawnOn "8:web" "firefox"
-  spawnOn "7:zim" "zim"
+  spawnOn "7:zim" "zim --standalone"
 
 myManageHook = composeAll
    [ className =? "firefox" --> doShift "8:web"
+   , className ?= "thunderbird" --> doShift "9:mail"
    , className =? "gimp"  --> doFloat
    , className =? "xeyes"  --> doFloat
    , className =? "Zim" --> doShift "7:zim"

@@ -38,8 +38,8 @@ if [ -x /usr/bin/dropbox ] ; then
    dropbox start &
 fi
 
-if [ -x /usr/local/bin/junglediskdesktop ] ; then
-  junglediskdesktop --standalone &
+if [ -x /usr/local/bin/jungledisk ] ; then
+  jungledisk --standalone &
 fi
 
 if [ -x /opt/extras.ubuntu.com/calendar-indicator/bin/calendar-indicator ] ; then

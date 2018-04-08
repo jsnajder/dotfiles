@@ -11,3 +11,4 @@
 	st = status
 [http]
 	proxy = 
+	postBuffer = 524288000

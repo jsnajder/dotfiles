@@ -30,10 +30,10 @@ xscreensaver -no-splash &
 #   gnome-power-manager &
 #fi
 
-#if [ -x /usr/bin/dropbox ] ; then
-#   dropbox start &
-#fi
-#
+if [ -x ~/.dropbox-dist/dropboxd ] ; then
+   ~/.dropbox-dist/dropboxd &
+fi
+
 #if [ -x /usr/local/bin/jungledisk ] ; then
 #  jungledisk --standalone &
 #fi

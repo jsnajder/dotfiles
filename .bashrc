@@ -119,5 +119,5 @@ fi
 # Jan, 2021-08-03
 
 export GIT_SSL_NO_VERIFY=true
-export PATH=~/.local/bin
+export PATH=~/.local/bin:$PATH
 

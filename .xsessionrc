@@ -19,24 +19,11 @@ xmodmap ~/.Xmodmap
  
 # Fire up apps
  
-xscreensaver -no-splash &
+xscreensaver -no-splash &  # do I need this? Isn't this covered by .config/i3/config?
  
-#if [ -x /usr/bin/nm-applet ] ; then
-#   nm-applet --sm-disable &
-#fi
-# 
-#if [ -x /usr/bin/gnome-power-manager ] ; then
-#   sleep 3
-#   gnome-power-manager &
-#fi
-
 if [ -x ~/.dropbox-dist/dropboxd ] ; then
    ~/.dropbox-dist/dropboxd &
 fi
-
-#if [ -x /usr/local/bin/jungledisk ] ; then
-#  jungledisk --standalone &
-#fi
 
 # Otherwise Libraoffie flickers. Cf: https://bbs.archlinux.org/viewtopic.php?id=176987
 # export SAL_USE_VCLPLUGIN=gen
